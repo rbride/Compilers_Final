@@ -1,0 +1,1 @@
+let foo=(lambda(n): let x = 1 in n) in foo(1)

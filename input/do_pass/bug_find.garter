@@ -1,0 +1,3 @@
+let rec foo=(lambda(x): let m = 69, n =70, k=71, l=72 in if x < 1: let o = m + n in let p = o + k in let q = p + l in printStack(q) else: foo(x - 1)) in let m = 3 in foo(2)
+
+#let foo = 1, x = 1 in let m = 69, n =70, k=71, l=72 in if x < 1: let o = m + n in let p = o + k in let q = p + l in printStack(q) else: foo

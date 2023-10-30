@@ -1,0 +1,3 @@
+
+def test(x): if x < 1 : printStack(0) else: x + test(x - 1) 
+  test(8)

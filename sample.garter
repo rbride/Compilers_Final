@@ -1,0 +1,1 @@
+let rec f1 = (lambda(x): let f2 = (lambda(y): y) in 1) in printStack(1)

@@ -1,0 +1,12 @@
+def p(acc):
+  printStack(acc)
+
+def fact2(acc, n):
+  if n < 1: p(acc)
+  else: fact2(acc * n, n - 1)
+
+def fact1(acc, n):
+  if n < 1: p(acc)
+  else: fact2(acc * n, n - 1)
+
+fact1(1, 6)
